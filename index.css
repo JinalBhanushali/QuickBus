@@ -1,0 +1,168 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.text1{
+    padding:2rem 15rem 0.5rem 15rem;
+    font-size:1.1rem;
+    text-align : center;
+    font-weight:500;
+}
+.box1{
+    display:flex;
+    padding:1.5rem 15rem;
+    background-color:green;
+
+}
+.button1{
+    background:yellow;
+}
+.part1{
+    display: flex;
+  flex-direction: column;
+  width:50%;
+  justify-content:center;
+  align-items:center;
+}
+.part2{
+    padding : 3rem 0;
+    width:50%;
+}
+.part1_1{
+    text-align:center;
+}
+.part1_1_1{
+    font-size:2.2rem;
+    color:yellow;
+}
+.part1_1_2{
+    font-size:1.1rem;
+    color:white;
+}
+.input{
+    float: right;
+    margin:8px 0;
+    padding:10px 0;
+    width:80%;
+}
+input[type="text"]::placeholder {  
+                  
+    /* Firefox, Chrome, Opera */ 
+    padding-left: 10px; 
+} 
+.box2{
+    padding-bottom:1.5rem;
+    display:flex;
+    justify-content:center;
+
+}
+.box3{ 
+    padding:1rem 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text3{
+    font-size:2rem;
+    text-align:center;
+    color:green;
+    padding-bottom:0.2rem;
+    font-weight:600;
+}
+.box3_2{
+    width:70%;
+    padding:1.5rem 0;
+    display:flex;
+    justify-content : space-between;
+}
+
+.box4{
+    position: relative; 
+}
+.box4_1{
+    filter:blur(0.5px) brightness(90%);
+}
+.box4_2{
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    color:white;
+}
+.box4_2_1{
+    display: flex;
+    justify-content:center;
+}
+.box4_2_2{
+    font-size: 2rem;
+    font-weight:600;
+    color:white;
+}
+.logo{
+    -webkit-transform: scale(1.5);
+    padding-bottom: 1rem;
+}
+
+
+
+.box5{
+    background: green;
+  
+    display: flex;
+    color:white;
+    padding:1rem 0 0.6rem 0;
+    width:100%;
+
+    justify-content : space-around;
+   
+}
+.box5_1{
+    padding-left:10rem;
+    list-style: none;
+}
+.box5_2{
+
+    list-style: none;
+}
+.box5_3{
+    padding-right:8rem;
+   display: flex;
+   flex-direction: column;
+    /* position: absolute;
+    right:10%; */
+}
+.boxContainer{
+    background-color:blue;
+    padding:1rem 0 0.6rem 0;
+    /* width:68%; */
+    display: flex;
+    justify-content : space-between;
+    position: relative;
+  
+  
+}
+.box5_img{
+    margin-bottom:-10px;
+    -webkit-transform: scale(0.7);
+}
+.box6{
+    width:100%;
+    padding:0.1rem 3rem;
+    display: flex;
+}
+.box6_1{
+    width:60%;
+}
+.box6_2{
+    width:50%;
+    display: flex;
+    list-style: none;
+}
+.box6_2_item{
+    padding-top:0.6rem;
+    margin-right:2rem;
+}
